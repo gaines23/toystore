@@ -1,0 +1,43 @@
+html{
+	background-color: teal;
+	font-family: Comic;
+	width: 900px;
+}
+
+#banner{
+	width: 960px;
+	text-align: center;
+}
+
+
+#nav{
+
+	text-align: center;
+	float: center;
+
+}
+
+body{
+	text-align: center;
+}
+
+#blink{
+	text-align: center;
+	background-color: black;
+	color: red;
+	margin: 0;
+	padding: 20px;
+	float: right;
+	height: 15px;
+}
+
+#blink span{
+	font-size: 2em;
+	font-weight: bold;
+	display: block;
+	
+}
+
+.pic {
+	float: left;
+}
