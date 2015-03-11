@@ -1,34 +1,97 @@
 html{
 	background-color: teal;
 	font-family: Comic;
-	width: 900px;
+	width: 1050px;
+	margin-left: 100px;
+	height: 1800px;
+}
+
+#body{
+	width: 50%;
+	height: 50%;
+	padding-top: 70px;
+	background-color: white;
+}
+
+#about{
+	text-align: center;
+	width: 940px;
+	height: 500px;
+	margin-left: 75px;
+	background-color: white;
+	border: solid 2px black;
 }
 
 #banner{
-	width: 960px;
 	text-align: center;
+	font-size: 20px;
+	border: solid 2px;
+	height: 130px;
+	width: 940px;
+	margin: auto;
+	background-color: white;
+	margin-left: 75px;
 }
 
-
-#nav{
-
+ul {
 	text-align: center;
-	float: center;
-
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
 }
 
-body{
+li{
+	display: inline;
+	padding: 7px;
+	font-size: 20;
+}
+
+.container{
+	margin-bottom: 10px;
+	margin-left: 75px;
+	margin-right: 0px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 50px;
+	padding-top: 10px;
+	width: 90%;
 	text-align: center;
+	height: 1100px;
+	background-color: white;
+	width: 885px;
+}
+
+#column1{
+	float: left;
+	width: 500px;
+	height: 400px;
+	margin-right: 0px;
+}
+
+#column2{
+	float: right;
+	width: 350px;
+	margin-top: 250px;
+	margin-right: 35px;
+}
+
+#column3{
+	float: left;
+	width: 400px;
+	margin-top: 180px;
 }
 
 #blink{
-	text-align: center;
+	text-align: right;
 	background-color: black;
 	color: red;
 	margin: 0;
 	padding: 20px;
 	float: right;
 	height: 15px;
+	margin-left: 200px
 }
 
 #blink span{
@@ -38,6 +101,42 @@ body{
 	
 }
 
-.pic {
-	float: left;
+.title1{
+	width: 500px;
 }
+
+.p1{
+	width: 500px;
+	height: 100px;
+}
+
+.toyco{
+	float: right;
+	width: 0px;
+	margin-left: 0px;
+	margin-top: -120px;
+}
+
+.title2{
+	width: 400px;
+	height: 100px;
+	margin-right: 0px;
+}
+
+.p2{
+	height: 100px;
+	width: 500px;
+}
+
+.inventor{
+	float: right;
+	margin-top: 100px;
+	margin-right: 80px;
+	margin-left: 0px;
+}
+
+.pic{
+	float: right;
+	margin-top: 170px;
+}
+

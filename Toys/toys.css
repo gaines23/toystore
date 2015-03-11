@@ -1,4 +1,105 @@
 html{
+	width: 1000px;
+	height: 1500px;
+	background-color: teal;
+	margin-left: 200px;
+}
+
+body{
+	height: 900px;
+	float: center;
+	height: 1300px;
+}
+
+#banner{
+	text-align: center;
+	font: arial;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	display: inline;
+	padding: 7px;
+	font-size: 20;
+}
+
+
+.container{
+	width: 960px;
+	padding-right: 300px;
+	padding-top: 10px;
+}
+
+#myCarousel{
 	width: 900px;
+	height: 500px;
+	margin-left: 50px;
+	
+}
+
+.carousel-inner{
+	height: 500px;
+
+}
+
+.item active{
+	height: 517p;
+}
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+      	width: 70%;
+      	margin: auto;
+    }
+
+#caption{
+	text-align: center;
+	font-size: 20; 
+}
+
+.title{
+	margin-left: 114px;
+}
+
+#column1{
+	text-align: left;
+	float: left;
+	width: 300px;
+	padding-left: 90px;
+}
+
+#column2{
+	text-align: center;
+	float: center;
+	width: 290px;
+	margin-left: 350px;
+	padding-left: 40px;
+	margin-bottom: -525px;
+	margin-top: 78px;
+}
+
+#column3{
+	text-align: right;
+	float: right;
+	width: 200px;
+	margin-right: 250px;
+}
+
+#classics{
+
+}
+
+#atari{
+	margin-top: 79px;
+}
+
+#arcade{
+	margin-top: 160px;
 }
 

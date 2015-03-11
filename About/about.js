@@ -13,3 +13,12 @@ function setblinkFont(){
 	document.getElementById("blink").style.color="red"
 	setTimeout("blinkFont()", 500)
 }
+
+$(document).ready(function(){
+    $("#click").hover(function(){
+        $("#click").css("background-color", "blue");
+        },function(){
+        $("#click").css("background-color", "orange");
+    });
+});
+
